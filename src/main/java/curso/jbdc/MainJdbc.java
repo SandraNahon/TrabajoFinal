@@ -119,6 +119,7 @@ public class MainJdbc {
         		 guerrero2.defender1(ataque, guerrero1.getPuntosDefensa(), guerrero2.getVida());
         		 turno++;
         		 
+        		 
         		//Guerrero B
         	}else if(turno == 3) {
         		 logger.debug("Esta atacando el  guerrero " + guerrero2.getNombre());
